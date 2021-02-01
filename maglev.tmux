@@ -63,10 +63,10 @@ main
 # END Fix CPU segment ----------------------------------------------------------
 
 apply_theme() {
-    left_separator=''
-    left_separator_black=''
-    right_separator=''
-    right_separator_black=''
+    left_separator=''
+    left_separator_black=''
+    right_separator=''
+    right_separator_black=''
     session_symbol=''
 
     # panes
@@ -144,7 +144,7 @@ apply_theme() {
     whoami_bg=colour160         # red
     host_fg=colour16            # black
     host_bg=colour254           # white
-    status_right="︎#[fg=$time_date_fg,nobold]#{prefix_highlight} $right_separator %R $right_separator %a %d %b #[fg=$host_bg]"
+    status_right="#[fg=$time_date_fg,nobold]#{prefix_highlight} $right_separator #{?window_zoomed_flag,🔍 $right_separator ,}%I:%M %p $right_separator %a %d %b #[fg=$host_bg]"
 
     # Only show solid separator if CPU or Battery are to be displayed
     if [ "$SHOW_BATTERY" = true ] || [ "$SHOW_CPU" = true ]; then
