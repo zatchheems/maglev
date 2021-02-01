@@ -2,13 +2,15 @@
 
 # Maglev
 
-A Tmux theme made to work together with [Bullet train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
+A Tmux theme originally made to work together with [Bullet train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
 
-## Screenshot
+Modified to better match a custom [Starship](https://starship.rs) theme.
 
-<img src="http://rawgit.com/caiogondim/maglev/master/img/screenshot.png">
+## Updated Screenshot
 
-The annotated screenshot:
+![image](https://user-images.githubusercontent.com/8506829/106493578-f096be80-647e-11eb-95d1-b4bce4c28eef.png)
+
+The annotated original screenshot:
 
 <img src="http://rawgit.com/caiogondim/maglev/master/img/screenshot-annotated.png">
 
